@@ -1,0 +1,6 @@
+framework module Pods_KartRecordMobileTests {
+  umbrella header "Pods-KartRecordMobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A9528FF56F0B7F61EF6343 /* Pods_KartRecordMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02E68B74020AFE5D64F52EB /* Pods_KartRecordMobile.framework */; };
+		6D9942087A9E3D90B7574564 /* Pods_KartRecordMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5B1D70BA2D30F7FACB3996 /* Pods_KartRecordMobileTests.framework */; };
 		FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D2C23B9D52800DDD06F /* AppDelegate.swift */; };
 		FF8A2D2F23B9D52800DDD06F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */; };
-		FF8A2D3123B9D52800DDD06F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D3023B9D52800DDD06F /* ViewController.swift */; };
+		FF8A2D3123B9D52800DDD06F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */; };
 		FF8A2D3423B9D52800DDD06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2D3223B9D52800DDD06F /* Main.storyboard */; };
 		FF8A2D3623B9D52B00DDD06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */; };
 		FF8A2D3923B9D52B00DDD06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2D3723B9D52B00DDD06F /* LaunchScreen.storyboard */; };
 		FF8A2D4423B9D52B00DDD06F /* KartRecordMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4323B9D52B00DDD06F /* KartRecordMobileTests.swift */; };
+		FF8A2D4F23C0910200DDD06F /* UserRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4E23C0910200DDD06F /* UserRecordViewController.swift */; };
+		FF8A2D5123C0914000DDD06F /* KartGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D5023C0914000DDD06F /* KartGeneralViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B83F5AE62238B8A52427EA /* Pods-KartRecordMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRecordMobile.debug.xcconfig"; path = "Target Support Files/Pods-KartRecordMobile/Pods-KartRecordMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		0B1C9290EBE4B41532C99EFD /* Pods-KartRecordMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRecordMobileTests.release.xcconfig"; path = "Target Support Files/Pods-KartRecordMobileTests/Pods-KartRecordMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AA5B21ED31F773270509149 /* Pods-KartRecordMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRecordMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-KartRecordMobileTests/Pods-KartRecordMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A16B3E2CB76B2D59136319AB /* Pods-KartRecordMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartRecordMobile.release.xcconfig"; path = "Target Support Files/Pods-KartRecordMobile/Pods-KartRecordMobile.release.xcconfig"; sourceTree = "<group>"; };
+		AC5B1D70BA2D30F7FACB3996 /* Pods_KartRecordMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRecordMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02E68B74020AFE5D64F52EB /* Pods_KartRecordMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRecordMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8A2D2923B9D52800DDD06F /* KartRecordMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartRecordMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8A2D2C23B9D52800DDD06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF8A2D3023B9D52800DDD06F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		FF8A2D3323B9D52800DDD06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8A2D3823B9D52B00DDD06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +48,8 @@
 		FF8A2D3F23B9D52B00DDD06F /* KartRecordMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartRecordMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8A2D4323B9D52B00DDD06F /* KartRecordMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartRecordMobileTests.swift; sourceTree = "<group>"; };
 		FF8A2D4523B9D52B00DDD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8A2D4E23C0910200DDD06F /* UserRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecordViewController.swift; sourceTree = "<group>"; };
+		FF8A2D5023C0914000DDD06F /* KartGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartGeneralViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A9528FF56F0B7F61EF6343 /* Pods_KartRecordMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9942087A9E3D90B7574564 /* Pods_KartRecordMobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09919053DA111B1626B4D5C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B83F5AE62238B8A52427EA /* Pods-KartRecordMobile.debug.xcconfig */,
+				A16B3E2CB76B2D59136319AB /* Pods-KartRecordMobile.release.xcconfig */,
+				4AA5B21ED31F773270509149 /* Pods-KartRecordMobileTests.debug.xcconfig */,
+				0B1C9290EBE4B41532C99EFD /* Pods-KartRecordMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		218C5A332E0689741870A3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02E68B74020AFE5D64F52EB /* Pods_KartRecordMobile.framework */,
+				AC5B1D70BA2D30F7FACB3996 /* Pods_KartRecordMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF8A2D2023B9D52800DDD06F = {
 			isa = PBXGroup;
 			children = (
 				FF8A2D2B23B9D52800DDD06F /* KartRecordMobile */,
 				FF8A2D4223B9D52B00DDD06F /* KartRecordMobileTests */,
 				FF8A2D2A23B9D52800DDD06F /* Products */,
+				09919053DA111B1626B4D5C1 /* Pods */,
+				218C5A332E0689741870A3F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +117,9 @@
 			children = (
 				FF8A2D2C23B9D52800DDD06F /* AppDelegate.swift */,
 				FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */,
-				FF8A2D3023B9D52800DDD06F /* ViewController.swift */,
+				FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */,
+				FF8A2D4E23C0910200DDD06F /* UserRecordViewController.swift */,
+				FF8A2D5023C0914000DDD06F /* KartGeneralViewController.swift */,
 				FF8A2D3223B9D52800DDD06F /* Main.storyboard */,
 				FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */,
 				FF8A2D3723B9D52B00DDD06F /* LaunchScreen.storyboard */,
@@ -106,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF8A2D4823B9D52B00DDD06F /* Build configuration list for PBXNativeTarget "KartRecordMobile" */;
 			buildPhases = (
+				8C555EBDFC354099E3760502 /* [CP] Check Pods Manifest.lock */,
 				FF8A2D2523B9D52800DDD06F /* Sources */,
 				FF8A2D2623B9D52800DDD06F /* Frameworks */,
 				FF8A2D2723B9D52800DDD06F /* Resources */,
+				67331C3C959EE2B444F68E13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF8A2D4B23B9D52B00DDD06F /* Build configuration list for PBXNativeTarget "KartRecordMobileTests" */;
 			buildPhases = (
+				14578E01A9A62D6CA0062FE6 /* [CP] Check Pods Manifest.lock */,
 				FF8A2D3B23B9D52B00DDD06F /* Sources */,
 				FF8A2D3C23B9D52B00DDD06F /* Frameworks */,
 				FF8A2D3D23B9D52B00DDD06F /* Resources */,
@@ -195,13 +236,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14578E01A9A62D6CA0062FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KartRecordMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67331C3C959EE2B444F68E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KartRecordMobile/Pods-KartRecordMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KartRecordMobile/Pods-KartRecordMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KartRecordMobile/Pods-KartRecordMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C555EBDFC354099E3760502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KartRecordMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF8A2D2523B9D52800DDD06F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8A2D3123B9D52800DDD06F /* ViewController.swift in Sources */,
+				FF8A2D5123C0914000DDD06F /* KartGeneralViewController.swift in Sources */,
+				FF8A2D3123B9D52800DDD06F /* MainTabBarController.swift in Sources */,
 				FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */,
+				FF8A2D4F23C0910200DDD06F /* UserRecordViewController.swift in Sources */,
 				FF8A2D2F23B9D52800DDD06F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +467,7 @@
 		};
 		FF8A2D4923B9D52B00DDD06F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B83F5AE62238B8A52427EA /* Pods-KartRecordMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +485,7 @@
 		};
 		FF8A2D4A23B9D52B00DDD06F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16B3E2CB76B2D59136319AB /* Pods-KartRecordMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +503,7 @@
 		};
 		FF8A2D4C23B9D52B00DDD06F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA5B21ED31F773270509149 /* Pods-KartRecordMobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +525,7 @@
 		};
 		FF8A2D4D23B9D52B00DDD06F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1C9290EBE4B41532C99EFD /* Pods-KartRecordMobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
