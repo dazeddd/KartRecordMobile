@@ -7,7 +7,8 @@ target 'KartRecordMobile' do
 
   # Pods for KartRecordMobile
   pod 'Then'
-  
+
+  pod 'SnapKit', '~> 5.0.0'
 
   target 'KartRecordMobileTests' do
     inherit! :search_paths

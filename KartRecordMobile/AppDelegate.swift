@@ -10,14 +10,27 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window: UIWindow?
 
-
-
+   
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        if #available(iOS 13, *) {
+            print("set in SceneDelegate")
+        } else {
+            let window = UIWindow(frame:UIScreen.main.bounds)
+            window.rootViewController = MainTabBarController()
+            self.window = window
+            window.makeKeyAndVisible()
+        }
+        
         // Override point for customization after application launch.
         return true
     }
-
+    
+    
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
@@ -34,4 +47,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+
 

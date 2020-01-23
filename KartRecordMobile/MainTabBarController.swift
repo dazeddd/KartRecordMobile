@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 import Then
 
 class MainTabBarController: UITabBarController {
@@ -31,11 +30,17 @@ class MainTabBarController: UITabBarController {
     init() {
         super.init(nibName: nil, bundle: nil)
         
-        let firstTab: UIViewController = UserRecordViewController()
-        let secondTab: UIViewController = KartGeneralViewController()
+        let firstTab: UIViewController = UserInputViewController()
+        let secondTab: UIViewController = KartCategoryViewController()
         
-        let tabs = NSArray(objects: firstTab, secondTab)
-        self.setViewControllers(tabs as? [UIViewController], animated: false)
+//        let tabs: [UIViewController] = [firstTab, secondTab]
+        self.viewControllers = [firstTab, secondTab]
+            .map { viewController -> UINavigationController in
+                let navigationController = UINavigationController(rootViewController: viewController)
+                return navigationController
+            
+        }
+        
     }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(:coder) has not been implemented")
