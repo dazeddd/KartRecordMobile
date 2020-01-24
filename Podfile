@@ -8,7 +8,12 @@ target 'KartRecordMobile' do
   # Pods for KartRecordMobile
   pod 'Then'
 
+  pod 'Alamofire', '~> 4.1'
+  pod 'Moya', '~> 13.0'
+  pod 'MoyaSugar'
+  
   pod 'SnapKit', '~> 5.0.0'
+  
 
   target 'KartRecordMobileTests' do
     inherit! :search_paths

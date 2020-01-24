@@ -36,12 +36,15 @@ class KartCategoryViewController: UIViewController {
     
     let kartImageButton = UIButton().then {
         $0.setTitle("카트 이미지", for: .normal)
+        $0.backgroundColor = .black
     }
     let trackImageButton = UIButton().then {
         $0.setTitle("트랙 이미지", for: .normal)
+        $0.backgroundColor = .black
     }
     let characterImageButton = UIButton().then {
         $0.setTitle("캐릭터 이미지", for: .normal)
+        $0.backgroundColor = .black
     }
     
     override func viewDidLoad() {
