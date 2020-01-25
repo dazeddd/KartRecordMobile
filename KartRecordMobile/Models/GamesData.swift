@@ -21,7 +21,7 @@ extension GamesData: Decodable {
     }
     
     init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: AccountCodingKeys.self)
+        let container = try decoder.container(keyedBy: GamesDataCodingKeys.self)
         
         id = try container.decode(String.self, forKey: .id)
         nickname = try container.decode(String.self, forKey: .nickname)

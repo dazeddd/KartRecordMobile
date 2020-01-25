@@ -10,6 +10,12 @@ import UIKit
 
 class GamesDataViewController: UIViewController {
 
+    // Mark: UI
+    
+    let gamesDataTable = UITableView()
+    
+    
+    // Mark: view lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,4 +35,18 @@ class GamesDataViewController: UIViewController {
     }
     */
 
+}
+
+extension GamesDataViewController: UITableViewDataSource {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+    }
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+    }
+}
+
+extension GamesDataViewController: UITableViewDelegate {
+    
+    
 }

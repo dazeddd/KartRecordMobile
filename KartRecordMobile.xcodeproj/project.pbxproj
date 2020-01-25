@@ -28,6 +28,10 @@
 		FFEE6A9623DAF476004D3493 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9523DAF476004D3493 /* Account.swift */; };
 		FFEE6A9823DAF978004D3493 /* GamesDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9723DAF978004D3493 /* GamesDataViewController.swift */; };
 		FFEE6A9A23DAFAA0004D3493 /* GamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9923DAFAA0004D3493 /* GamesData.swift */; };
+		FFEE6A9E23DBD55B004D3493 /* InfoPagingViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */; };
+		FFEE6AA323DBF313004D3493 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AA223DBF313004D3493 /* ImageCollectionViewCell.swift */; };
+		FFEE6AA523DC00CF004D3493 /* KartCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AA423DC00CF004D3493 /* KartCollectionViewController.swift */; };
+		FFEE6AA723DC00E4004D3493 /* TrackCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AA623DC00E4004D3493 /* TrackCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		FFEE6A9523DAF476004D3493 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		FFEE6A9723DAF978004D3493 /* GamesDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesDataViewController.swift; sourceTree = "<group>"; };
 		FFEE6A9923DAFAA0004D3493 /* GamesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesData.swift; sourceTree = "<group>"; };
+		FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPagingViewcontroller.swift; sourceTree = "<group>"; };
+		FFEE6AA223DBF313004D3493 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FFEE6AA423DC00CF004D3493 /* KartCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartCollectionViewController.swift; sourceTree = "<group>"; };
+		FFEE6AA623DC00E4004D3493 /* TrackCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,10 @@
 				FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */,
 				FFEE6A9723DAF978004D3493 /* GamesDataViewController.swift */,
 				FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */,
+				FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */,
+				FFEE6AA423DC00CF004D3493 /* KartCollectionViewController.swift */,
+				FFEE6AA623DC00E4004D3493 /* TrackCollectionViewController.swift */,
+				FFEE6AA223DBF313004D3493 /* ImageCollectionViewCell.swift */,
 				FFEE6A8A23DABDC0004D3493 /* kart.json */,
 				FFEE6A8623DABD7F004D3493 /* track.json */,
 				FFEE6A8823DABDB0004D3493 /* character.json */,
@@ -360,12 +372,16 @@
 				FFEE6A8523DABD07004D3493 /* Kart.swift in Sources */,
 				FF8A2D3123B9D52800DDD06F /* MainTabBarController.swift in Sources */,
 				FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */,
+				FFEE6AA723DC00E4004D3493 /* TrackCollectionViewController.swift in Sources */,
+				FFEE6AA523DC00CF004D3493 /* KartCollectionViewController.swift in Sources */,
 				FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */,
 				FFEE6A9A23DAFAA0004D3493 /* GamesData.swift in Sources */,
 				FFEE6A9623DAF476004D3493 /* Account.swift in Sources */,
 				FFEE6A9423DACEA7004D3493 /* KartAPI.swift in Sources */,
+				FFEE6AA323DBF313004D3493 /* ImageCollectionViewCell.swift in Sources */,
 				FF8A2D2F23B9D52800DDD06F /* SceneDelegate.swift in Sources */,
 				FFEE6A9823DAF978004D3493 /* GamesDataViewController.swift in Sources */,
+				FFEE6A9E23DBD55B004D3493 /* InfoPagingViewcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
