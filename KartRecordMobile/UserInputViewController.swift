@@ -6,6 +6,11 @@
 //  Copyright © 2020 이준수. All rights reserved.
 //
 
+// textfield 를 통해 input 값을 받으면
+// provider.request(.nickname(nick:)) 로 access_id 받고
+// provider.request(.gameData(accessID: String, startDate:String, endDate: String))
+
+
 import Foundation
 import UIKit
 
@@ -14,7 +19,7 @@ import SnapKit
 
 import Moya
 
-class UserInputViewController: UIViewController, UITextFieldDelegate {
+class UserInputViewController: UIViewController {
     
     let provier = MoyaProvider<KartAPI>()
     
@@ -47,6 +52,11 @@ class UserInputViewController: UIViewController, UITextFieldDelegate {
     let endDateInput = UITextField().then {
         $0.text = "조회 끝 날짜를 입력하세요 ex)2019-02-15"
         $0.backgroundColor = .white
+    }
+    
+    let submitButton = UIButton().then {
+        $0.setTitle("조회하기", for: .normal)
+        $0.backgroundColor = .yellow
     }
     
     override func viewDidLoad() {
@@ -91,7 +101,18 @@ class UserInputViewController: UIViewController, UITextFieldDelegate {
             make.width.equalTo(CGFloat(300))
             make.height.equalTo(CGFloat(40))
             
+            make.bottom.equalTo(self.submitButton.snp.top).offset(-50)
             make.centerX.equalToSuperview()
+        }
+        
+        self.submitButton.snp.makeConstraints { (make) in
+            
+            make.width.equalTo(CGFloat(150))
+            make.height.equalTo(CGFloat(40))
+            
+            
+            make.centerX.equalToSuperview()
+            
         }
         
         
@@ -101,6 +122,10 @@ class UserInputViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    
+}
+
+extension UserInputViewController: UITextFieldDelegate {
     
 }
 

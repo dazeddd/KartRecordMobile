@@ -15,6 +15,9 @@ target 'KartRecordMobile' do
   
   pod 'SnapKit', '~> 5.0.0'
   
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Storage'
+  
   
 
   target 'KartRecordMobileTests' do

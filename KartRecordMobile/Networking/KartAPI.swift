@@ -37,9 +37,9 @@ extension KartAPI: TargetType {
     }
     public var method: Moya.Method {
         switch self {
-        case let .nickname(nick):
+        case .nickname(_):
             return .get
-        case let .gameData(accessID,startDate,endDate):
+        case .gameData(_, _, _):
             return .get
         
         }

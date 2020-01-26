@@ -8,16 +8,38 @@
 
 import UIKit
 
+import Firebase
+import Moya
+
+// uitableview 로 구성할건데, 맵이 cell 의 메인 이미지이고 cell 을 클릭하면 맵, 트랙, 캐릭터, 기록 등의 정보가 뜸
+
 class GamesDataViewController: UIViewController {
 
-    // Mark: UI
+    // MARK: Networking
     
-    let gamesDataTable = UITableView()
+    let provider = MoyaProvider<KartAPI>()
+    
+    // MARK: UI
+    
+    let gamesDataTable = UITableView().then {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.register(MatchInfoTableViewCell.self, forCellReuseIdentifier: "MatchCell")
+    }
     
     
-    // Mark: view lifecycle
+    // MARK: view lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        
+        
+        
+        let storage = Storage.storage()
+        let gsReference = storage.reference(forURL: "gs://kartrecordmobile.appspot.com/kart/")
+
         
         
 

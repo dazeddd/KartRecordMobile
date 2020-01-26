@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Firebase
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -24,6 +26,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+        
+        FirebaseApp.configure()
+        let storage = Storage.storage()
+    
         
         // Override point for customization after application launch.
         return true
