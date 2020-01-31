@@ -13,6 +13,9 @@ target 'KartRecordMobile' do
   pod 'Moya', '~> 13.0'
   pod 'MoyaSugar'
   
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  
   pod 'SnapKit', '~> 5.0.0'
   
   pod 'Firebase/Analytics'

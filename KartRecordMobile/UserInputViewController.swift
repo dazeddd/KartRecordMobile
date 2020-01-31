@@ -27,6 +27,8 @@ class UserInputViewController: UIViewController {
     init() {
         super.init(nibName: nil, bundle: nil)
         
+        
+        
         self.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 1)
     }
     required init?(coder aDecoder: NSCoder) {
@@ -35,23 +37,28 @@ class UserInputViewController: UIViewController {
     
     
     
+    
+    
     // Mark: UI
     let userNameInput = UITextField().then {
-        $0.text = "카트 아이디를 입력하세요"
+        $0.placeholder = "카트 아이디를 입력하세요"
         $0.backgroundColor = .white
-       
-        
+        $0.borderStyle = .bezel
     }
     let startDateInput = UITextField()
         .then {
-        $0.text = "조회 시작 날짜를 입력하세요 ex)2019-02-15"
+        $0.placeholder = "조회 시작 날짜를 입력하세요 ex)2019-02-15"
         $0.backgroundColor = .white
+        $0.borderStyle = .bezel
+        $0.adjustsFontSizeToFitWidth = true
         
         
     }
     let endDateInput = UITextField().then {
-        $0.text = "조회 끝 날짜를 입력하세요 ex)2019-02-15"
+        $0.placeholder = "조회 끝 날짜를 입력하세요 ex)2019-02-15"
         $0.backgroundColor = .white
+        $0.borderStyle = .bezel
+        $0.adjustsFontSizeToFitWidth = true
     }
     
     let submitButton = UIButton().then {
@@ -61,6 +68,12 @@ class UserInputViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // extension
+        
+        self.userNameInput.delegate = self
+        self.startDateInput.delegate = self
+        self.endDateInput.delegate = self
         
         // api request
         
@@ -114,6 +127,7 @@ class UserInputViewController: UIViewController {
             make.centerX.equalToSuperview()
             
         }
+        
         
         
     }

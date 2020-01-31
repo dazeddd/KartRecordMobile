@@ -11,6 +11,7 @@ import Foundation
 import Alamofire
 import Moya
 
+// apikey 는 어떻게 전달?
 
 
 enum KartAPI {

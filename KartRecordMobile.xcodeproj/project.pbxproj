@@ -17,16 +17,9 @@
 		FF8A2D4423B9D52B00DDD06F /* KartRecordMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4323B9D52B00DDD06F /* KartRecordMobileTests.swift */; };
 		FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */; };
 		FF8A2D5123C0914000DDD06F /* KartCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */; };
-		FFEE6A8523DABD07004D3493 /* Kart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A8423DABD07004D3493 /* Kart.swift */; };
-		FFEE6A8723DABD7F004D3493 /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6A8623DABD7F004D3493 /* track.json */; };
-		FFEE6A8923DABDB0004D3493 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6A8823DABDB0004D3493 /* character.json */; };
-		FFEE6A8B23DABDC0004D3493 /* kart.json in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6A8A23DABDC0004D3493 /* kart.json */; };
-		FFEE6A8F23DABDF9004D3493 /* gameType.json in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6A8C23DABDF8004D3493 /* gameType.json */; };
-		FFEE6A9023DABDF9004D3493 /* flyingPet.json in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6A8D23DABDF9004D3493 /* flyingPet.json */; };
-		FFEE6A9123DABDF9004D3493 /* pet.json in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6A8E23DABDF9004D3493 /* pet.json */; };
 		FFEE6A9423DACEA7004D3493 /* KartAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9323DACEA7004D3493 /* KartAPI.swift */; };
 		FFEE6A9623DAF476004D3493 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9523DAF476004D3493 /* Account.swift */; };
-		FFEE6A9823DAF978004D3493 /* GamesDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9723DAF978004D3493 /* GamesDataViewController.swift */; };
+		FFEE6A9823DAF978004D3493 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */; };
 		FFEE6A9A23DAFAA0004D3493 /* GamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9923DAFAA0004D3493 /* GamesData.swift */; };
 		FFEE6A9E23DBD55B004D3493 /* InfoPagingViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */; };
 		FFEE6AA323DBF313004D3493 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AA223DBF313004D3493 /* ImageCollectionViewCell.swift */; };
@@ -34,6 +27,9 @@
 		FFEE6AA723DC00E4004D3493 /* TrackCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AA623DC00E4004D3493 /* TrackCollectionViewController.swift */; };
 		FFEE6AA923DC5B0A004D3493 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6AA823DC5B0A004D3493 /* GoogleService-Info.plist */; };
 		FFEE6AAD23DD352F004D3493 /* MatchInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */; };
+		FFEE6AB623DD7854004D3493 /* MatchDetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */; };
+		FFEE6AB823DD7A43004D3493 /* MatchDetailInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6AB723DD7A43004D3493 /* MatchDetailInfo.xib */; };
+		FFEE6ABA23DD7B16004D3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6AB923DD7B16004D3493 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,16 +61,9 @@
 		FF8A2D4523B9D52B00DDD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
 		FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartCategoryViewController.swift; sourceTree = "<group>"; };
-		FFEE6A8423DABD07004D3493 /* Kart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kart.swift; sourceTree = "<group>"; };
-		FFEE6A8623DABD7F004D3493 /* track.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = track.json; path = ../../KartMetadata/track.json; sourceTree = "<group>"; };
-		FFEE6A8823DABDB0004D3493 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = character.json; path = ../../KartMetadata/character.json; sourceTree = "<group>"; };
-		FFEE6A8A23DABDC0004D3493 /* kart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kart.json; path = ../../KartMetadata/kart.json; sourceTree = "<group>"; };
-		FFEE6A8C23DABDF8004D3493 /* gameType.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gameType.json; path = ../../KartMetadata/gameType.json; sourceTree = "<group>"; };
-		FFEE6A8D23DABDF9004D3493 /* flyingPet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flyingPet.json; path = ../../KartMetadata/flyingPet.json; sourceTree = "<group>"; };
-		FFEE6A8E23DABDF9004D3493 /* pet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pet.json; path = ../../KartMetadata/pet.json; sourceTree = "<group>"; };
 		FFEE6A9323DACEA7004D3493 /* KartAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartAPI.swift; sourceTree = "<group>"; };
 		FFEE6A9523DAF476004D3493 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		FFEE6A9723DAF978004D3493 /* GamesDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesDataViewController.swift; sourceTree = "<group>"; };
+		FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
 		FFEE6A9923DAFAA0004D3493 /* GamesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesData.swift; sourceTree = "<group>"; };
 		FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPagingViewcontroller.swift; sourceTree = "<group>"; };
 		FFEE6AA223DBF313004D3493 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -82,6 +71,15 @@
 		FFEE6AA623DC00E4004D3493 /* TrackCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewController.swift; sourceTree = "<group>"; };
 		FFEE6AA823DC5B0A004D3493 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoTableViewCell.swift; sourceTree = "<group>"; };
+		FFEE6AAF23DD37F3004D3493 /* kart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kart.json; sourceTree = "<group>"; };
+		FFEE6AB023DD37FD004D3493 /* flyingPet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flyingPet.json; sourceTree = "<group>"; };
+		FFEE6AB123DD37FD004D3493 /* pet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pet.json; sourceTree = "<group>"; };
+		FFEE6AB223DD37FD004D3493 /* gameType.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameType.json; sourceTree = "<group>"; };
+		FFEE6AB323DD37FD004D3493 /* character.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		FFEE6AB423DD37FD004D3493 /* track.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
+		FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailInfoViewController.swift; sourceTree = "<group>"; };
+		FFEE6AB723DD7A43004D3493 /* MatchDetailInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchDetailInfo.xib; sourceTree = "<group>"; };
+		FFEE6AB923DD7B16004D3493 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,23 +151,21 @@
 				FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */,
 				FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */,
 				FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */,
-				FFEE6A9723DAF978004D3493 /* GamesDataViewController.swift */,
+				FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */,
+				FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */,
+				FFEE6AB723DD7A43004D3493 /* MatchDetailInfo.xib */,
 				FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */,
-				FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */,
 				FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */,
 				FFEE6AA423DC00CF004D3493 /* KartCollectionViewController.swift */,
 				FFEE6AA623DC00E4004D3493 /* TrackCollectionViewController.swift */,
 				FFEE6AA223DBF313004D3493 /* ImageCollectionViewCell.swift */,
-				FFEE6A8A23DABDC0004D3493 /* kart.json */,
-				FFEE6A8623DABD7F004D3493 /* track.json */,
-				FFEE6A8823DABDB0004D3493 /* character.json */,
-				FFEE6A8D23DABDF9004D3493 /* flyingPet.json */,
-				FFEE6A8C23DABDF8004D3493 /* gameType.json */,
-				FFEE6A8E23DABDF9004D3493 /* pet.json */,
+				FFEE6AAE23DD37E0004D3493 /* Resources */,
 				FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */,
 				FF8A2D3723B9D52B00DDD06F /* LaunchScreen.storyboard */,
 				FFEE6AA823DC5B0A004D3493 /* GoogleService-Info.plist */,
+				FFEE6AB923DD7B16004D3493 /* .gitignore */,
 				FF8A2D3A23B9D52B00DDD06F /* Info.plist */,
+				FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */,
 			);
 			path = KartRecordMobile;
 			sourceTree = "<group>";
@@ -186,7 +182,6 @@
 		FFEE6A8323DABC6E004D3493 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FFEE6A8423DABD07004D3493 /* Kart.swift */,
 				FFEE6A9523DAF476004D3493 /* Account.swift */,
 				FFEE6A9923DAFAA0004D3493 /* GamesData.swift */,
 			);
@@ -199,6 +194,19 @@
 				FFEE6A9323DACEA7004D3493 /* KartAPI.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		FFEE6AAE23DD37E0004D3493 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE6AB423DD37FD004D3493 /* track.json */,
+				FFEE6AB323DD37FD004D3493 /* character.json */,
+				FFEE6AB023DD37FD004D3493 /* flyingPet.json */,
+				FFEE6AB223DD37FD004D3493 /* gameType.json */,
+				FFEE6AB123DD37FD004D3493 /* pet.json */,
+				FFEE6AAF23DD37F3004D3493 /* kart.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,15 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEE6ABA23DD7B16004D3493 /* .gitignore in Resources */,
+				FFEE6AB823DD7A43004D3493 /* MatchDetailInfo.xib in Resources */,
 				FF8A2D3923B9D52B00DDD06F /* LaunchScreen.storyboard in Resources */,
-				FFEE6A9123DABDF9004D3493 /* pet.json in Resources */,
 				FFEE6AA923DC5B0A004D3493 /* GoogleService-Info.plist in Resources */,
-				FFEE6A8F23DABDF9004D3493 /* gameType.json in Resources */,
-				FFEE6A8B23DABDC0004D3493 /* kart.json in Resources */,
 				FF8A2D3623B9D52B00DDD06F /* Assets.xcassets in Resources */,
-				FFEE6A8723DABD7F004D3493 /* track.json in Resources */,
-				FFEE6A9023DABDF9004D3493 /* flyingPet.json in Resources */,
-				FFEE6A8923DABDB0004D3493 /* character.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,11 +380,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF8A2D5123C0914000DDD06F /* KartCategoryViewController.swift in Sources */,
-				FFEE6A8523DABD07004D3493 /* Kart.swift in Sources */,
 				FF8A2D3123B9D52800DDD06F /* MainTabBarController.swift in Sources */,
 				FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */,
 				FFEE6AAD23DD352F004D3493 /* MatchInfoTableViewCell.swift in Sources */,
 				FFEE6AA723DC00E4004D3493 /* TrackCollectionViewController.swift in Sources */,
+				FFEE6AB623DD7854004D3493 /* MatchDetailInfoViewController.swift in Sources */,
 				FFEE6AA523DC00CF004D3493 /* KartCollectionViewController.swift in Sources */,
 				FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */,
 				FFEE6A9A23DAFAA0004D3493 /* GamesData.swift in Sources */,
@@ -388,7 +392,7 @@
 				FFEE6A9423DACEA7004D3493 /* KartAPI.swift in Sources */,
 				FFEE6AA323DBF313004D3493 /* ImageCollectionViewCell.swift in Sources */,
 				FF8A2D2F23B9D52800DDD06F /* SceneDelegate.swift in Sources */,
-				FFEE6A9823DAF978004D3493 /* GamesDataViewController.swift in Sources */,
+				FFEE6A9823DAF978004D3493 /* MatchesTableViewController.swift in Sources */,
 				FFEE6A9E23DBD55B004D3493 /* InfoPagingViewcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
