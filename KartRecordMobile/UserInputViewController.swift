@@ -16,8 +16,9 @@ import UIKit
 
 import Then
 import SnapKit
-
 import Moya
+import RxCocoa
+import RxSwift
 
 class UserInputViewController: UIViewController {
     
@@ -66,26 +67,7 @@ class UserInputViewController: UIViewController {
         $0.backgroundColor = .yellow
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // extension
-        
-        self.userNameInput.delegate = self
-        self.startDateInput.delegate = self
-        self.endDateInput.delegate = self
-        
-        // api request
-        
-        
-        
-        
-        // ui, autolayout
-        self.view.backgroundColor = .green
-        
-        self.view.addSubview(self.userNameInput)
-        self.view.addSubview(self.startDateInput)
-        self.view.addSubview(self.endDateInput)
+    func configureAutoLayout() {
         
         self.userNameInput.snp.makeConstraints { (make) in
             
@@ -128,6 +110,34 @@ class UserInputViewController: UIViewController {
             
         }
         
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // extension
+        
+        self.userNameInput.delegate = self
+        self.startDateInput.delegate = self
+        self.endDateInput.delegate = self
+        
+        // api request
+        
+        
+        
+        
+        // ui, autolayout
+        self.view.backgroundColor = .green
+        
+        self.view.addSubview(self.userNameInput)
+        self.view.addSubview(self.startDateInput)
+        self.view.addSubview(self.endDateInput)
+        
+        configureAutoLayout()
+        
+        
+        
+        
         
         
     }
@@ -142,6 +152,8 @@ class UserInputViewController: UIViewController {
 extension UserInputViewController: UITextFieldDelegate {
     
 }
+
+
 
 
 // 구현 포인트

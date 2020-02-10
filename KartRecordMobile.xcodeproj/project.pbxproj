@@ -17,6 +17,7 @@
 		FF8A2D4423B9D52B00DDD06F /* KartRecordMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4323B9D52B00DDD06F /* KartRecordMobileTests.swift */; };
 		FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */; };
 		FF8A2D5123C0914000DDD06F /* KartCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */; };
+		FFE0D19E23E455A900A793EB /* MatchTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0D19D23E455A900A793EB /* MatchTableViewModel.swift */; };
 		FFEE6A9423DACEA7004D3493 /* KartAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9323DACEA7004D3493 /* KartAPI.swift */; };
 		FFEE6A9623DAF476004D3493 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9523DAF476004D3493 /* Account.swift */; };
 		FFEE6A9823DAF978004D3493 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */; };
@@ -61,6 +62,7 @@
 		FF8A2D4523B9D52B00DDD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
 		FF8A2D5023C0914000DDD06F /* KartCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartCategoryViewController.swift; sourceTree = "<group>"; };
+		FFE0D19D23E455A900A793EB /* MatchTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewModel.swift; sourceTree = "<group>"; };
 		FFEE6A9323DACEA7004D3493 /* KartAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartAPI.swift; sourceTree = "<group>"; };
 		FFEE6A9523DAF476004D3493 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */,
 				FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */,
 				FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */,
+				FFE0D19D23E455A900A793EB /* MatchTableViewModel.swift */,
 				FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */,
 				FFEE6AB723DD7A43004D3493 /* MatchDetailInfo.xib */,
 				FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */,
@@ -384,6 +387,7 @@
 				FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */,
 				FFEE6AAD23DD352F004D3493 /* MatchInfoTableViewCell.swift in Sources */,
 				FFEE6AA723DC00E4004D3493 /* TrackCollectionViewController.swift in Sources */,
+				FFE0D19E23E455A900A793EB /* MatchTableViewModel.swift in Sources */,
 				FFEE6AB623DD7854004D3493 /* MatchDetailInfoViewController.swift in Sources */,
 				FFEE6AA523DC00CF004D3493 /* KartCollectionViewController.swift in Sources */,
 				FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */,
