@@ -1,21 +1,28 @@
 //
-//  MatchDetailInfoViewController.swift
+//  MainTabViewController.swift
 //  KartRecordMobile
 //
-//  Created by 이준수 on 2020/01/26.
+//  Created by 이준수 on 2020/04/21.
 //  Copyright © 2020 이준수. All rights reserved.
 //
 
 import UIKit
 
-class MatchDetailInfoViewController: UIViewController {
+class MainTabViewController: UIViewController {
 
+    init() {
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
     
 
     /*

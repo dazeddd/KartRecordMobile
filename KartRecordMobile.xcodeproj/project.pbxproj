@@ -10,23 +10,15 @@
 		01A9528FF56F0B7F61EF6343 /* Pods_KartRecordMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02E68B74020AFE5D64F52EB /* Pods_KartRecordMobile.framework */; };
 		6D9942087A9E3D90B7574564 /* Pods_KartRecordMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5B1D70BA2D30F7FACB3996 /* Pods_KartRecordMobileTests.framework */; };
 		FF5FF8E2244DEE720041BE44 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FF8E1244DEE720041BE44 /* ApiKey.swift */; };
+		FF5FF8E4244DF1D80041BE44 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FF8E3244DF1D80041BE44 /* MainTabViewController.swift */; };
+		FF5FF8E6244DF36C0041BE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5FF8E5244DF36C0041BE44 /* Main.storyboard */; };
 		FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D2C23B9D52800DDD06F /* AppDelegate.swift */; };
 		FF8A2D2F23B9D52800DDD06F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */; };
-		FF8A2D3123B9D52800DDD06F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */; };
 		FF8A2D3623B9D52B00DDD06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */; };
 		FF8A2D3923B9D52B00DDD06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2D3723B9D52B00DDD06F /* LaunchScreen.storyboard */; };
 		FF8A2D4423B9D52B00DDD06F /* KartRecordMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4323B9D52B00DDD06F /* KartRecordMobileTests.swift */; };
-		FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */; };
-		FFE0D19E23E455A900A793EB /* MatchTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0D19D23E455A900A793EB /* MatchTableViewModel.swift */; };
-		FFEE6A9423DACEA7004D3493 /* KartAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9323DACEA7004D3493 /* KartAPI.swift */; };
 		FFEE6A9623DAF476004D3493 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9523DAF476004D3493 /* Account.swift */; };
-		FFEE6A9823DAF978004D3493 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */; };
 		FFEE6A9A23DAFAA0004D3493 /* GamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9923DAFAA0004D3493 /* GamesData.swift */; };
-		FFEE6A9E23DBD55B004D3493 /* InfoPagingViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */; };
-		FFEE6AA923DC5B0A004D3493 /* GoogleService-Info-prev.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6AA823DC5B0A004D3493 /* GoogleService-Info-prev.plist */; };
-		FFEE6AAD23DD352F004D3493 /* MatchInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */; };
-		FFEE6AB623DD7854004D3493 /* MatchDetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */; };
-		FFEE6ABA23DD7B16004D3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FFEE6AB923DD7B16004D3493 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,33 +39,25 @@
 		AC5B1D70BA2D30F7FACB3996 /* Pods_KartRecordMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRecordMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02E68B74020AFE5D64F52EB /* Pods_KartRecordMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartRecordMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5FF8E1244DEE720041BE44 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		FF5FF8E3244DF1D80041BE44 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		FF5FF8E5244DF36C0041BE44 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FF8A2D2923B9D52800DDD06F /* KartRecordMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartRecordMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8A2D2C23B9D52800DDD06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8A2D3823B9D52B00DDD06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF8A2D3A23B9D52B00DDD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8A2D3F23B9D52B00DDD06F /* KartRecordMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartRecordMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8A2D4323B9D52B00DDD06F /* KartRecordMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartRecordMobileTests.swift; sourceTree = "<group>"; };
 		FF8A2D4523B9D52B00DDD06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
-		FFE0D19D23E455A900A793EB /* MatchTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewModel.swift; sourceTree = "<group>"; };
-		FFEE6A9323DACEA7004D3493 /* KartAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartAPI.swift; sourceTree = "<group>"; };
 		FFEE6A9523DAF476004D3493 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
 		FFEE6A9923DAFAA0004D3493 /* GamesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesData.swift; sourceTree = "<group>"; };
-		FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPagingViewcontroller.swift; sourceTree = "<group>"; };
-		FFEE6AA823DC5B0A004D3493 /* GoogleService-Info-prev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-prev.plist"; path = "../../../Downloads/GoogleService-Info-prev.plist"; sourceTree = "<group>"; };
-		FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoTableViewCell.swift; sourceTree = "<group>"; };
 		FFEE6AAF23DD37F3004D3493 /* kart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kart.json; sourceTree = "<group>"; };
 		FFEE6AB023DD37FD004D3493 /* flyingPet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flyingPet.json; sourceTree = "<group>"; };
 		FFEE6AB123DD37FD004D3493 /* pet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pet.json; sourceTree = "<group>"; };
 		FFEE6AB223DD37FD004D3493 /* gameType.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameType.json; sourceTree = "<group>"; };
 		FFEE6AB323DD37FD004D3493 /* character.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		FFEE6AB423DD37FD004D3493 /* track.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
-		FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailInfoViewController.swift; sourceTree = "<group>"; };
-		FFEE6AB923DD7B16004D3493 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,18 +136,11 @@
 				FFEE6A8323DABC6E004D3493 /* Models */,
 				FF8A2D2C23B9D52800DDD06F /* AppDelegate.swift */,
 				FF8A2D2E23B9D52800DDD06F /* SceneDelegate.swift */,
-				FF8A2D3023B9D52800DDD06F /* MainTabBarController.swift */,
-				FF8A2D4E23C0910200DDD06F /* UserInputViewController.swift */,
-				FFEE6A9723DAF978004D3493 /* MatchesTableViewController.swift */,
-				FFE0D19D23E455A900A793EB /* MatchTableViewModel.swift */,
-				FFEE6AB523DD7854004D3493 /* MatchDetailInfoViewController.swift */,
-				FFEE6AAC23DD352F004D3493 /* MatchInfoTableViewCell.swift */,
-				FFEE6A9D23DBD55B004D3493 /* InfoPagingViewcontroller.swift */,
+				FF5FF8E3244DF1D80041BE44 /* MainTabViewController.swift */,
 				FFEE6AAE23DD37E0004D3493 /* Resources */,
 				FF8A2D3523B9D52B00DDD06F /* Assets.xcassets */,
+				FF5FF8E5244DF36C0041BE44 /* Main.storyboard */,
 				FF8A2D3723B9D52B00DDD06F /* LaunchScreen.storyboard */,
-				FFEE6AA823DC5B0A004D3493 /* GoogleService-Info-prev.plist */,
-				FFEE6AB923DD7B16004D3493 /* .gitignore */,
 				FF8A2D3A23B9D52B00DDD06F /* Info.plist */,
 			);
 			path = KartRecordMobile;
@@ -190,7 +167,6 @@
 		FFEE6A9223DACE8A004D3493 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				FFEE6A9323DACEA7004D3493 /* KartAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -292,10 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFEE6ABA23DD7B16004D3493 /* .gitignore in Resources */,
 				FF8A2D3923B9D52B00DDD06F /* LaunchScreen.storyboard in Resources */,
-				FFEE6AA923DC5B0A004D3493 /* GoogleService-Info-prev.plist in Resources */,
 				FF8A2D3623B9D52B00DDD06F /* Assets.xcassets in Resources */,
+				FF5FF8E6244DF36C0041BE44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,19 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8A2D3123B9D52800DDD06F /* MainTabBarController.swift in Sources */,
 				FF5FF8E2244DEE720041BE44 /* ApiKey.swift in Sources */,
 				FF8A2D2D23B9D52800DDD06F /* AppDelegate.swift in Sources */,
-				FFEE6AAD23DD352F004D3493 /* MatchInfoTableViewCell.swift in Sources */,
-				FFE0D19E23E455A900A793EB /* MatchTableViewModel.swift in Sources */,
-				FFEE6AB623DD7854004D3493 /* MatchDetailInfoViewController.swift in Sources */,
-				FF8A2D4F23C0910200DDD06F /* UserInputViewController.swift in Sources */,
 				FFEE6A9A23DAFAA0004D3493 /* GamesData.swift in Sources */,
 				FFEE6A9623DAF476004D3493 /* Account.swift in Sources */,
-				FFEE6A9423DACEA7004D3493 /* KartAPI.swift in Sources */,
 				FF8A2D2F23B9D52800DDD06F /* SceneDelegate.swift in Sources */,
-				FFEE6A9823DAF978004D3493 /* MatchesTableViewController.swift in Sources */,
-				FFEE6A9E23DBD55B004D3493 /* InfoPagingViewcontroller.swift in Sources */,
+				FF5FF8E4244DF1D80041BE44 /* MainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

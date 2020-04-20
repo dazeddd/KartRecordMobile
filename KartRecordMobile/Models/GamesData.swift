@@ -24,6 +24,6 @@ extension GamesData: Decodable {
         let container = try decoder.container(keyedBy: GamesDataCodingKeys.self)
         
         id = try container.decode(String.self, forKey: .id)
-        nickname = try container.decode(String.self, forKey: .nickname)
+        nickname = try container.decode(String.self, forKey: .character)
     }
 }
